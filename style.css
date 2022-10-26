@@ -1,0 +1,64 @@
+body{
+    background-image: url(./image/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+.container{
+    background-color: whitesmoke;
+    min-height: 100vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.main-text{
+    font-weight: bold;
+    font-family: "Last Ninja", Impact, fantasy;
+}
+
+.main-bar{
+    padding: 1em;
+}
+
+.menu-bar{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu-bar div{
+    padding: 1em;
+    color: rgb(78, 78, 78);
+    cursor: pointer;
+}
+
+#underline{
+    position: absolute;
+    width: 60px;
+    background-color: pink;
+    top: 201.5px;
+    left: 50;
+    height: 4px;
+    padding: 0;
+    transition: 0.5s;
+}
+
+.task-bar{
+    border: gray solid 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-bar div{
+    padding: 1em;
+    color: rgb(78, 78, 78);
+}
+
+.task-text{
+    font-family: "Last Ninja", Impact, fantasy;
+}
+
+.true-line{
+    text-decoration: line-through;
+    background-color: rgb(216, 216, 216);
+    
+}
